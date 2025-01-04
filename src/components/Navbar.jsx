@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center max-w-[1280px] h-[25px] mx-auto pt-[50px]">
+    <nav className="flex justify-between items-center max-w-[1280px] h-[100px] mx-auto">
       <a href="/">
         <h1 className="font-serif text-[32px]">MNTN</h1>
       </a>
