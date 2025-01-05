@@ -1,12 +1,13 @@
 import Divider from "../components/Divider";
+import Arrow from "./Arrow";
 
 const Card = ({ data }) => {
   const { number, title, subtitle, body, img, reverse } = data;
   return (
     <div className="max-w-[850px] h-[380px] mx-auto">
-      <div className="grid grid-cols-5 h-full">
+      <div className="grid grid-cols-6 h-full">
         <div
-          className={`col-span-3 max-w-[70%] m-auto h-fit relative ${reverse} ? "col-start-1" : "col-start-auto" `}
+          className={`col-span-4 max-w-[70%] m-auto h-fit relative ${reverse} ? "col-start-1" : "col-start-auto" `}
         >
           <div className="flex items-center gap-3 text-[12px]">
             <Divider />
@@ -21,7 +22,7 @@ const Card = ({ data }) => {
             <h3 className="text-[38px] font-serif font-thin">{title}</h3>
             <p className="text-[10px] font-sans">{body}</p>
             <a href="" className="text-secondary flex items-center gap-3">
-              read more <Divider />
+              read more <Arrow />
             </a>
           </div>
         </div>

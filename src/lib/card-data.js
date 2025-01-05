@@ -4,7 +4,7 @@ import Img03 from "../assets/images/03.png";
 
 export const cardsContent = [
   {
-    number: "01",
+    number: "01 ",
     title: "What level of hiker are you?",
     subtitle: "Get Started",
     body: "Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker?",

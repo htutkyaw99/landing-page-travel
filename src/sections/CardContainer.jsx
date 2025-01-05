@@ -4,7 +4,7 @@ import { cardsContent } from "../lib/card-data";
 
 const CardContainer = () => {
   return (
-    <section className="space-y-[200px]">
+    <section className="space-y-[200px] px-5">
       {cardsContent.map((card) => (
         <Card data={card} />
       ))}

@@ -4,3 +4,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .hover-link {
+    @apply font-sans hover:text-secondary transition-all duration-100;
+  }
+}
