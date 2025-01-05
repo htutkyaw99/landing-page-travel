@@ -3,7 +3,7 @@ import Divider from "../components/Divider";
 
 const Home = () => {
   return (
-    <section className="">
+    <section className="min-h-96">
       <div className="max-w-[650px] text-[58px] font-serif mx-auto mt-[100px]">
         <div className="flex items-center gap-3">
           <Divider />
